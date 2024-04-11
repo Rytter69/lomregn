@@ -53,7 +53,7 @@ namespace lomregn
                 {
                     Console.Clear();
                 }
-
+                //omfg
                 else if (igen == "Nej")
                 {
                     mere = false;
