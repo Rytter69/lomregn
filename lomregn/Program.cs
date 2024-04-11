@@ -30,6 +30,18 @@ namespace lomregn
                 svar = tal1 * tal2;
                 Console.WriteLine("Svaret er " + svar);
             }
+
+            if (d == "+")
+            {
+                svar = tal1 + tal2;
+                Console.WriteLine("Svaret er " + svar);
+            }
+
+            if (d == "/")
+            {
+                svar = tal1 / tal2;
+                Console.WriteLine("Svaret er " + svar);
+            }
             Console.ReadKey();
         }
     }
