@@ -46,8 +46,6 @@ namespace lomregn
                     svar = tal1 / tal2;
                     Console.WriteLine("Svaret er " + svar);
                 }
-                Console.ReadKey();
-
                 Console.WriteLine("Igen (Ja) (Nej)");
                 string igen = Console.ReadLine();
 
