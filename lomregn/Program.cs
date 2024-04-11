@@ -15,7 +15,7 @@ namespace lomregn
 
             while (mere)
             {
-                int hahah;
+                
                 int svar;
                 Console.WriteLine("Velkommen til lommeregner. Vil du gerne *(gange), +(plusse), -(minus) eller /(dividere)?");
 
@@ -65,7 +65,7 @@ namespace lomregn
                     mere = false;
                 }
 
-                int lol;
+                
             }
         }
     }
