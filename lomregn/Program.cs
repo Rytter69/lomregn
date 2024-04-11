@@ -12,7 +12,7 @@ namespace lomregn
         static void Main(string[] args)
         {
             bool mere = true;
-            //spa
+
             while (mere)
             {
                 int svar;
@@ -63,7 +63,6 @@ namespace lomregn
                 {
                     mere = false;
                 }
-                // har du det godt
             }
         }
     }
