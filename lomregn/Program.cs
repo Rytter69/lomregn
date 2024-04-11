@@ -21,7 +21,7 @@ namespace lomregn
 
             if (d == "-")
             {
-                svar = tal1 + tal2;
+                svar = tal1 - tal2;
                 Console.WriteLine("Svaret er " + svar);
             }
 
