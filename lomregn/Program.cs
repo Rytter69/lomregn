@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace lomregn
@@ -11,6 +10,12 @@ namespace lomregn
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             bool mere = true;
 
             while (mere)
@@ -71,6 +76,33 @@ namespace lomregn
                 }
                 
             }
+=======
+            Console.WriteLine("Hello, World!");
+            Thread.Sleep(10000);
+            Console.WriteLine("Rytter er fed og sutter bearnaise");
+>>>>>>> parent of 15dbe5b (gange)
+=======
+            Console.WriteLine("Hello, World!");
+            Thread.Sleep(10000);
+            Console.WriteLine("Rytter er fed og sutter bearnaise");
+>>>>>>> parent of 15dbe5b (gange)
+=======
+            Console.WriteLine("Hello, World!");
+            Thread.Sleep(10000);
+            Console.WriteLine("Rytter er fed og sutter bearnaise");
+>>>>>>> parent of 15dbe5b (gange)
+=======
+            Console.WriteLine("Hello, World!");
+            Thread.Sleep(10000);
+            Console.WriteLine("Rytter er fed og sutter bearnaise");
+>>>>>>> parent of 15dbe5b (gange)
+=======
+            Console.WriteLine("Hello, World!");
+            Thread.Sleep(10000);
+            Console.WriteLine("Rytter er fed og sutter bearnaise");
+>>>>>>> parent of 15dbe5b (gange)
+=======
+>>>>>>> parent of e89b7dd (tEST)
         }
     }
 }
