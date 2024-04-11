@@ -69,7 +69,6 @@ namespace lomregn
                 {
                     mere = false;
                 }
-
                 
             }
         }
