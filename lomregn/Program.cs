@@ -18,6 +18,13 @@ namespace lomregn
             int tal1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Vælg dit andet tal");
             int tal2 = Convert.ToInt32(Console.ReadLine());
+
+            if (d == "-")
+            {
+                svar = tal1 + tal2;
+                Console.WriteLine("Svaret er " + svar);
+            }
+
             if (d == "*")
             {
                 svar = tal1 * tal2;
