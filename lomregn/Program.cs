@@ -62,7 +62,7 @@ namespace lomregn
 
                 if (igen == "Ja")
                 {
-                    Console.Clear();
+                    Console.WriteLine("Jeg vil ud");
                 }
 
                 else if (igen == "Nej")
