@@ -64,7 +64,7 @@ namespace lomregn
                     mere = false;
                 }
 
-                
+                int lol;
             }
         }
     }
