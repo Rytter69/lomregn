@@ -13,6 +13,7 @@ namespace lomregn
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             bool mere = true;
 
             while (mere)
@@ -74,6 +75,11 @@ namespace lomregn
 
                 
             }
+=======
+            Console.WriteLine("Hello, World!");
+            Thread.Sleep(10000);
+            Console.WriteLine("Rytter er fed og sutter bearnaise");
+>>>>>>> parent of 15dbe5b (gange)
 =======
             Console.WriteLine("Hello, World!");
             Thread.Sleep(10000);
