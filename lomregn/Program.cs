@@ -12,7 +12,7 @@ namespace lomregn
         static void Main(string[] args)
         {
             bool mere = true;
-            //spa
+
             while (mere)
             {
                 int svar;
@@ -25,7 +25,7 @@ namespace lomregn
                 int tal1 = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine("Vælg dit andet tal");
-
+                 
                 int tal2 = Convert.ToInt32(Console.ReadLine());
 
                 if (d == "-")
@@ -51,6 +51,8 @@ namespace lomregn
                     svar = tal1 / tal2;
                     Console.WriteLine("Svaret er " + svar);
                 }
+
+
                 Console.WriteLine("Igen (Ja) (Nej)");
                 string igen = Console.ReadLine();
 
@@ -63,7 +65,7 @@ namespace lomregn
                 {
                     mere = false;
                 }
-                // har du det godt
+
             }
         }
     }
