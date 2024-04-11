@@ -11,38 +11,56 @@ namespace lomregn
     {
         static void Main(string[] args)
         {
-            int svar;
-            Console.WriteLine("Velkommen til lommeregner. Vil du gerne *(gange), +(plusse), -(minus) eller /(dividere)?");
-            string d = Console.ReadLine();
-            Console.WriteLine("Vælg dit første tal");
-            int tal1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Vælg dit andet tal");
-            int tal2 = Convert.ToInt32(Console.ReadLine());
+            bool mere = true;
 
-            if (d == "-")
+            while (mere)
             {
-                svar = tal1 - tal2;
-                Console.WriteLine("Svaret er " + svar);
-            }
+                int svar;
+                Console.WriteLine("Velkommen til lommeregner. Vil du gerne *(gange), +(plusse), -(minus) eller /(dividere)?");
+                string d = Console.ReadLine();
+                Console.WriteLine("Vælg dit første tal");
+                int tal1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Vælg dit andet tal");
+                int tal2 = Convert.ToInt32(Console.ReadLine());
 
-            if (d == "*")
-            {
-                svar = tal1 * tal2;
-                Console.WriteLine("Svaret er " + svar);
-            }
+                if (d == "-")
+                {
+                    svar = tal1 - tal2;
+                    Console.WriteLine("Svaret er " + svar);
+                }
 
-            if (d == "+")
-            {
-                svar = tal1 + tal2;
-                Console.WriteLine("Svaret er " + svar);
-            }
+                if (d == "*")
+                {
+                    svar = tal1 * tal2;
+                    Console.WriteLine("Svaret er " + svar);
+                }
 
-            if (d == "/")
-            {
-                svar = tal1 / tal2;
-                Console.WriteLine("Svaret er " + svar);
+                if (d == "+")
+                {
+                    svar = tal1 + tal2;
+                    Console.WriteLine("Svaret er " + svar);
+                }
+
+                if (d == "/")
+                {
+                    svar = tal1 / tal2;
+                    Console.WriteLine("Svaret er " + svar);
+                }
+                Console.ReadKey();
+
+                Console.WriteLine("Igen (Ja) (Nej)");
+                string igen = Console.ReadLine();
+
+                if (igen == "Ja")
+                {
+                    Console.Clear();
+                }
+
+                else if (igen == "Nej")
+                {
+                    mere = false;
+                }
             }
-            Console.ReadKey();
         }
     }
 }
