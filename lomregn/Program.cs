@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace lomregn
@@ -10,6 +11,8 @@ namespace lomregn
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, World!");
+            Thread.Sleep(1000);
         }
     }
 }
