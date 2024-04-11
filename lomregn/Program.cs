@@ -12,7 +12,8 @@ namespace lomregn
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            Thread.Sleep(1000);
+            Thread.Sleep(10000);
+            Console.WriteLine("Rytter er fed og sutter bearnaise");
         }
     }
 }
