@@ -64,7 +64,7 @@ namespace lomregn
                     mere = false;
                 }
 
-                //Test tilbage jajajajjaja
+                //Test tilbage jajajajjaja Stress
             }
         }
     }
