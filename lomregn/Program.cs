@@ -59,7 +59,7 @@ namespace lomregn
                     mere = false;
                 }
 
-                //Test tilbage
+                //Test tilbage jajajajjaja
             }
         }
     }
