@@ -63,7 +63,7 @@ namespace lomregn
                 {
                     mere = false;
                 }
-
+                // har du det godt
             }
         }
     }
