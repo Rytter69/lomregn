@@ -20,32 +20,40 @@ namespace lomregn
 
                 string Regneart = Console.ReadLine();
 
-                Console.WriteLine("Vælg dit første tal");
-
                 int tal1;
-                string input1 = Console.ReadLine();
-                try
+                while (true)
                 {
-                    tal1 = Int32.Parse(input1);
-                }
-                catch
-                {
-                    Console.WriteLine("Venligst brug et tal i stedet for et bogstav, nu bruger jeg 900 fordi du ikke ka finde ud af det.");
-                    tal1 = 900;
+                    Console.WriteLine("Vælg dit første tal");
+
+                    string input1 = Console.ReadLine();
+
+                    if (!Int32.TryParse(input1, out tal1))
+                    {
+                        Console.WriteLine("Du skrev et bogstav prøv igen");
+                        tal1 = 0;
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
 
-                Console.WriteLine("Vælg dit andet tal");
-
-                string input2 = Console.ReadLine();
                 int tal2;
-                try
+                while (true)
                 {
-                    tal2 = Convert.ToInt32(input2);
-                }
-                catch
-                {
-                    Console.WriteLine("Du skrev ikke et tal jeg vægler 20");
-                    tal2= 20;
+                    Console.WriteLine("Vælg dit andet tal");
+
+                    string input2 = Console.ReadLine();
+
+                    if (!Int32.TryParse(input2, out tal2))
+                    {
+                        Console.WriteLine("Du skrev et bogstav prøv igen");
+                        tal2= 0;
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
 
                 if (Regneart == "-")
