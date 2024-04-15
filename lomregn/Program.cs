@@ -15,7 +15,6 @@ namespace lomregn
 
             while (mere)
             {
-                string hahah;
                 int svar;
                 Console.WriteLine("Velkommen til lommeregner. Vil du gerne *(gange), +(plusse), -(minus) eller /(dividere)?");
 
@@ -29,13 +28,10 @@ namespace lomregn
 
                 int tal2 = Convert.ToInt32(Console.ReadLine());
 
-                hahah = "Hjælp mig ";
-
                 if (Regneart == "-")
                 {
                     svar = tal1 - tal2;
                     Console.WriteLine("Svaret er " + svar);
-                    Console.WriteLine(hahah);
                 }
 
                 if (Regneart == "*")
