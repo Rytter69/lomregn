@@ -22,7 +22,16 @@ namespace lomregn
 
                 Console.WriteLine("Vælg dit første tal");
 
-                int tal1 = Convert.ToInt32(Console.ReadLine());
+                int tal1;
+                try
+                {
+                    tal1 = Int32.Parse(Regneart);
+                }
+                catch
+                {
+                    Console.WriteLine("Venligst brug et tal i stedet for et bogstav");
+                    tal1 = 900;
+                }
 
                 Console.WriteLine("Vælg dit andet tal");
 
