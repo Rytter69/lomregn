@@ -23,13 +23,14 @@ namespace lomregn
                 Console.WriteLine("Vælg dit første tal");
 
                 int tal1;
+                string input1 = Console.ReadLine();
                 try
                 {
-                    tal1 = Int32.Parse(Regneart);
+                    tal1 = Int32.Parse(input1);
                 }
                 catch
                 {
-                    Console.WriteLine("Venligst brug et tal i stedet for et bogstav");
+                    Console.WriteLine("Venligst brug et tal i stedet for et bogstav, nu bruger jeg 900 fordi du ikke ka finde ud af det.");
                     tal1 = 900;
                 }
 
