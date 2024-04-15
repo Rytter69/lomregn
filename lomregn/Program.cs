@@ -33,7 +33,7 @@ namespace lomregn
                 catch
                 {
                     Console.WriteLine("Venligst brug et tal i stedet for et bogstav, nu bruger jeg 900 fordi du ikke ka finde ud af det.");
-                    tal1 = 900;
+                    tal1 = Convert.ToInt32(Console.ReadLine());
                 }
 
                 Console.WriteLine("Vælg dit andet tal");
