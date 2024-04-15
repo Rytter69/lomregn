@@ -84,7 +84,6 @@ namespace lomregn
                 {
                     mere = false;
                 }
-
             }
         }
     }
