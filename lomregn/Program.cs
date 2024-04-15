@@ -23,9 +23,10 @@ namespace lomregn
                 Console.WriteLine("Vælg dit første tal");
 
                 int tal1;
+                string input1 = Console.ReadLine();
                 try
                 {
-                    tal1 = Int32.Parse(Regneart);
+                    tal1 = Int32.Parse(input1);
                 }
                 catch
                 {
