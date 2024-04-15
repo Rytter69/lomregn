@@ -26,8 +26,17 @@ namespace lomregn
 
                 Console.WriteLine("Vælg dit andet tal");
 
-                int tal2 = Convert.ToInt32(Console.ReadLine());
-
+                string input2 = Console.ReadLine();
+                int tal2;
+                try
+                {
+                    tal2 = Convert.ToInt32(input2);
+                }
+                catch
+                {
+                    Console.WriteLine("Du skrev ikke et tal jeg vægler 20");
+                    tal2= 20;
+                }
 
                 if (Regneart == "-")
                 {
