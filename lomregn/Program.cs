@@ -28,6 +28,7 @@ namespace lomregn
 
                 int tal2 = Convert.ToInt32(Console.ReadLine());
 
+
                 if (Regneart == "-")
                 {
                     svar = tal1 - tal2;
@@ -58,7 +59,7 @@ namespace lomregn
 
                 if (igen == "Ja")
                 {
-                    Console.WriteLine("Jeg vil ud");
+                    Console.Clear();
                 }
 
                 else if (igen == "Nej")
