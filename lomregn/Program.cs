@@ -30,7 +30,6 @@ namespace lomregn
 
 
                 if (Regneart == "-")
-                if (d == "-")
                 {
                     svar = tal1 - tal2;
                     Console.WriteLine("Svaret er " + svar);
