@@ -32,7 +32,6 @@ namespace lomregn
                     if (!Int32.TryParse(input1, out tal1))
                     {
                         Console.WriteLine("Du skrev et bogstav prøv igen");
-                        tal1 = 0;
                     }
                     else
                     {
@@ -50,7 +49,6 @@ namespace lomregn
                     if (!Int32.TryParse(input2, out tal2))
                     {
                         Console.WriteLine("Du skrev et bogstav prøv igen");
-                        tal2= 0;
                     }
                     else
                     {
