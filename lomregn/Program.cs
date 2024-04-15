@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace lomregn
 {
@@ -12,6 +13,7 @@ namespace lomregn
         static void Main(string[] args)
         {
             bool mere = true;
+            bool loop = true;
 
             while (mere)
             {
@@ -81,17 +83,26 @@ namespace lomregn
                 }
 
 
-                Console.WriteLine("Igen (Ja) (Nej)");
-                string igen = Console.ReadLine();
+                while (loop == true)
+                { 
+                    Console.WriteLine("Igen (Ja) (Nej)");
+                    string igen = Console.ReadLine();
 
-                if (igen == "Ja")
-                {
-                    Console.Clear();
-                }
+                    if (igen == "Ja")
+                    {
+                        Console.Clear();
+                        loop = false;
+                    }
 
-                else if (igen == "Nej")
-                {
-                    mere = false;
+                    else if (igen == "Nej")
+                    {
+                        Console.WriteLine("Lukker");
+                    }                        
+
+                    else if (igen != "Ja" && igen != "Nej")
+                    {
+                        Console.WriteLine("Skriv venligst et (Ja) eller (Nej)");
+                    }
                 }
             }
         }
