@@ -19,7 +19,7 @@ namespace lomregn
                 int svar;
                 Console.WriteLine("Velkommen til lommeregner. Vil du gerne *(gange), +(plusse), -(minus) eller /(dividere)?");
 
-                string d = Console.ReadLine();
+                string Regneart = Console.ReadLine();
 
                 Console.WriteLine("Vælg dit første tal");
 
@@ -31,26 +31,26 @@ namespace lomregn
 
                 hahah = "Hjælp mig ";
 
-                if (d == "-")
+                if (Regneart == "-")
                 {
                     svar = tal1 - tal2;
                     Console.WriteLine("Svaret er " + svar);
                     Console.WriteLine(hahah);
                 }
 
-                if (d == "*")
+                if (Regneart == "*")
                 {
                     svar = tal1 * tal2;
                     Console.WriteLine("Svaret er " + svar);
                 }
 
-                if (d == "+")
+                if (Regneart == "+")
                 {
                     svar = tal1 + tal2;
                     Console.WriteLine("Svaret er " + svar);
                 }
 
-                if (d == "/")
+                if (Regneart == "/")
                 {
                     svar = tal1 / tal2;
                     Console.WriteLine("Svaret er " + svar);
